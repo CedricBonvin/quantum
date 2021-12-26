@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary : teal
+}
+.page{
+    padding-top: 50px;
+}  
+.shadow{
+    box-shadow: 0 0 15px 5px rgb(236, 236, 236);
+} 
+.button{
+    border: none;
+    padding : 15px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.validButton{
+    background-color: rgb(49, 126, 49);
+    color: white;
+}
+.titleH1{
+    padding: 50px;
+    background-color: teal;
+    color: white;
+    font-size: 50px;
+}
+.titleSection{
+    display: inline-block;
+    padding: 20px;
+    padding-right: 120px;
+    background: linear-gradient(146deg, teal 75%, rgba(9, 9, 121, 0) 75%);
+    color: white;
+    font-size: 20px;
+}
+.contGutter{
+    width: 90%;
+    margin: auto;
+}
+hr{
+    width: 30%;
+    margin: 50px auto;
+
+}
+li{
+    list-style-type: none;
+}
+
+
+@media screen and (min-width : 600px){
+    hr{
+        margin: 100px auto ;
+
+    }
+    .titleSection{
+        display: inline-block;
+        padding: 20px;
+        padding-right: 150px;
+        background: linear-gradient(146deg, teal 75%, rgba(9, 9, 121, 0) 75%);
+        color: white;
+        font-size: 30px;
+    }
+}
